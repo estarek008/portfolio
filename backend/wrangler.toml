@@ -1,0 +1,21 @@
+name = "esraa-portfolio-api"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ADMIN_SECRET = "270294"
+FRONTEND_URL = "https://esraa-portfolio.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "esraa-portfolio-db"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_YOUR_KV_ID"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "esraa-portfolio-files"
