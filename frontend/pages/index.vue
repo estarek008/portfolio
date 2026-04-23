@@ -47,7 +47,7 @@
         <div class="hero-visual animate-fade-up delay-200">
           <div class="profile-ring">
             <div class="profile-img-wrap">
-              <img v-if="false" src="/profile.jpg" alt="Esraa Tarek Sadek" class="profile-img" />
+              <img v-if="false" src="" alt="Esraa Tarek Sadek" class="profile-img" />
               <div class="profile-placeholder">
                 <span>ET</span>
               </div>
