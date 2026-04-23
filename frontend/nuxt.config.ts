@@ -3,7 +3,11 @@ export default defineNuxtConfig({
   ssr: true,
 
   nitro: {
-    preset: 'cloudflare-pages',
+     preset: 'static',
+    output: {
+      dir: 'dist',
+      publicDir: 'dist'
+    }
   },
 
   app: {
