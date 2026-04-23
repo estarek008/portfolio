@@ -10,11 +10,11 @@ FRONTEND_URL = "https://esraa-portfolio.pages.dev"
 [[d1_databases]]
 binding = "DB"
 database_name = "esraa-portfolio-db"
-database_id = "REPLACE_WITH_YOUR_D1_ID"
+database_id = "4407e473-3f5b-493a-9617-69ea9030e864"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "REPLACE_WITH_YOUR_KV_ID"
+id = "aeb5c24cc4e6496582319d48fc492ec0"
 
 [[r2_buckets]]
 binding = "BUCKET"
